@@ -1,0 +1,28 @@
+import sqlite3
+
+DB_PATH = "database.db"
+
+def save_memory(fact):
+
+    conn = sqlite3.connect(DB_PATH)
+
+    cursor = conn.cursor()
+
+    cursor.execute(
+        """
+        INSERT INTO memories(
+            user_id,
+            key,
+            value
+        )
+        VALUES(
+            1,
+            'memory',
+            ?
+        )
+        """,
+        (fact,)
+    )
+
+    conn.commit()
+    conn.close()

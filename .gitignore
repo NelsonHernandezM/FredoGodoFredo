@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Bases de datos
+*.db
+*.sqlite
+*.sqlite3
+
+# Variables de entorno
+.env
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# Visual Studio
+.vs/
+*.VC.db
+
+# JetBrains
+.idea/
+
+# FAISS
+faiss_index/
+vector_index/
+
+# Datos privados
+data/
+cache/
+
+# Sistema
+Thumbs.db
+.DS_Store
