@@ -166,7 +166,4 @@ Puede indexar documentos PDF y responder preguntas utilizando únicamente la inf
 # Autor
 
 Nelson Hernández Morales
-
-Doctorado en Ciencias de la Ingeniería
-
-Universidad Autónoma de Tamaulipas
+ 
